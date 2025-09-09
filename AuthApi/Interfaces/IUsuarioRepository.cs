@@ -7,6 +7,6 @@ namespace AuthApi.Interfaces
     {
         Task<Usuario> GetByEmailAsync(string email);
         Task<Usuario> AddAsync(Usuario usuario);
-        Task<List<UsuarioListadoDto>> GetAllUsuarioAsync();
+        Task<List<UsuarioListadoDto>> GetAllUsuariosAsync();
     }
 }
